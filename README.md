@@ -3,8 +3,12 @@ Hi.
 IP list:
 
 - My list
-- (1.93.1.142 - 223.4.236.153) Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 15/2/16
-- (1.1.160.125 - 98.116.166.20) Tor list : https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1 15/2/16
+- Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 15/2/16
+- Tor list : https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1 15/2/16
+- greensnow : http://blocklist.greensnow.co/greensnow.txt
+- openpl : https://www.openbl.org/lists/base.txt
+- blocklistde : https://lists.blocklist.de/lists/all.txt
+- stopfromspam : https://www.stopforumspam.com/downloads/toxic_ip_cidr.txt
 
 ## Install
 
@@ -55,8 +59,8 @@ Add to the bottom
 
 ```
 MAILTO=”mail@example.com”
-#update ip list
-0 4 * * 2 /updatelist.sh 
+#update ip list - monthly
+0 0 1 * * /updatelist.sh 
 ```
 
 ufw cleaner
