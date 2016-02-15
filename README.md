@@ -36,4 +36,4 @@ exit
 
 - and finish:
 
-`./updatelish.sh`
+`./updatelist.sh`
