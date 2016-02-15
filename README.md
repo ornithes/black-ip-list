@@ -38,3 +38,17 @@ exit
 - and finish:
 
 `./updatelist.sh`
+
+Auto update
+
+cronjob edit
+
+`crontab -e`
+
+Add to the bottom
+
+```
+MAILTO=”mail@example.com”
+#update ip list
+0 0 * * * root /updatelist.sh 
+```
