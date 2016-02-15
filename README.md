@@ -1,5 +1,10 @@
 Hi. 
 
+IP list:
+
+- My list
+- (17 - 1121) Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt
+
 ## Install
 
 - UFW settings
