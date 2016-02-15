@@ -1,10 +1,12 @@
 Hi. 
 
+Update : 15/2/2016
+
 IP list:
 
 - My list
-- Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 15/2/16
-- Tor list : https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1 15/2/16
+- Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 
+- Tor list : https://check.torproject.org/cgi-bin/TorBulkExitList.py?ip=1.1.1.1 
 - greensnow : http://blocklist.greensnow.co/greensnow.txt
 - openpl : https://www.openbl.org/lists/base.txt
 - blocklistde : https://lists.blocklist.de/lists/all.txt
