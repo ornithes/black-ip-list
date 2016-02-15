@@ -50,5 +50,5 @@ Add to the bottom
 ```
 MAILTO=”mail@example.com”
 #update ip list
-0 0 * * * root /updatelist.sh 
+0 4 * * 2 /updatelist.sh 
 ```
