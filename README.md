@@ -24,6 +24,7 @@ ufw enable
 ```
 #!/bin/bash
 cd /
+rm -rf black-ip-list
 git clone https://github.com/pikshub/black-ip-list.git
 cd black-ip-list
 while read line; do sudo ufw deny from $line to any; done < iplist.txt
