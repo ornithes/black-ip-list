@@ -61,4 +61,4 @@ MAILTO=”mail@example.com”
 
 ufw cleaner
 
-`while read line; do sudo ufw delete deny from $line; done < updatelist.txt`
+`while read line; do sudo ufw delete deny from $line; done < iplist.txt`
