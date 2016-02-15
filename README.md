@@ -3,7 +3,7 @@ Hi.
 IP list:
 
 - My list
-- (17 - 1121) Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 15/2/16
+- (1.93.1.142 - 223.4.236.153) Cinnscore bad guys list : http://cinsscore.com/list/ci-badguys.txt 15/2/16
 
 ## Install
 
