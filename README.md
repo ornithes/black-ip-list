@@ -57,3 +57,7 @@ MAILTO=”mail@example.com”
 #update ip list
 0 4 * * 2 /updatelist.sh 
 ```
+
+ufw cleaner
+
+`while read line; do sudo ufw delete deny from $line; done < updatelist.txt`
